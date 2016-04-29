@@ -1,0 +1,12 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">slideshow</custom-type>
+		<custom-type translate="1">gallery</custom-type>
+		<custom-type translate="1">faq</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">slideshow_categories</taxonomy>
+		<taxonomy translate="1">gallery_categories</taxonomy>
+		<taxonomy translate="1">faq_categories</taxonomy>
+	</taxonomies>
+</wpml-config>

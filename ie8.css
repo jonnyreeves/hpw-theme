@@ -1,0 +1,112 @@
+.ie8 .zoom-icon:before {
+-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  margin: 0px 0 0 -25px;
+  width: 50px;
+  height: 50px;
+  font-size:3.5em;
+  content: "";
+}
+.ie8 a:hover .zoom-icon:before {margin: -10px 0 0 -25px; content: "\e96f";} 
+
+.flexnav {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-transform-style: preserve-3d;
+  overflow: auto;
+  margin: 0 auto;
+  width: 100%;
+  max-height: auto; }
+
+.flexnav > li > a:after {content: '|'; margin-left:12px; color:#d6d6d6;} 
+.flexnav > li:last-child a:after {content: ''; margin-left:0px; color:#d6d6d6;} 
+
+.flexnav > li.current-menu-item > a, .flexnav > li.current-menu-ancestor  > a {
+   border-bottom: 0px;
+}
+
+.flexnav li li > a:hover,
+.flexnav li li.current-menu-item > a {
+  background: url(images/line-menu.png) repeat-x bottom;
+}
+
+.flexnav li ul li a {
+  padding: 10px 12px;
+  background: url(images/line-menu.png) repeat-x bottom;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.88em;
+letter-spacing: -0.5px;
+}
+
+.flexnav > li > a:hover,
+.flexnav > li.sfHover > a {
+   border-bottom: 0px solid #000;
+}
+
+.flexnav > li > a {
+  padding: 30px 2px 30px 2px;
+  color: #222;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right:1px;
+}
+.flexnav a {
+  position: relative;
+  display: block;
+}
+.flexnav .touch-button {
+display:none;
+}
+  .flexnav {
+  text-align: center; 
+    overflow: visible; }
+    .flexnav.opacity {
+      opacity: 1; }
+    .flexnav li {
+      position: relative;
+      list-style: none;
+  text-align: left;
+      display: inline-block;
+      overflow: visible;
+      }
+    .flexnav li a {
+      
+      border-bottom: none; }
+    .flexnav li > ul {
+	display: none;
+      position: absolute;
+      top: auto;
+      left: 0; }
+      .flexnav li > ul li {
+        width:220px; }
+    .flexnav li ul li > ul {
+      margin-left: 220px;
+      top: 0; }
+    .flexnav li ul li a {
+      border-bottom: none; }
+    .flexnav li ul.open {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+      z-index: 1; }
+      .flexnav li ul.open li {
+        overflow: visible;
+        max-height: 100px; 
+		 
+}
+      .flexnav li ul.open ul.open {
+        margin-left: 100%;
+        top: 0; }
+
+  .menu-button {
+    display: none; }
+.ie8 .banners_img {
+  width: auto;
+  height: auto;
+}

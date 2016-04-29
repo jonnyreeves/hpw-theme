@@ -1,0 +1,11 @@
+/*
+Theme Name: Hercules
+*/
+/*
+Used to style the TinyMCE editor.
+*/
+html .mceContentBody{
+	direction:rtl;
+	unicode-bidi:embed;
+	float:right;
+}
