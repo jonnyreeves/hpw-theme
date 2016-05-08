@@ -5,7 +5,7 @@
 	Theme URI: http://hercules-design.com
 	Version: 1.9.4
 	Description: Clean and responsive theme designed to make your blogging experience as simple as possible.
-	License: 
+	License:
 	License URI: license/readme.txt
 	Tags: awesome, beautiful, blog, design, facebook, flickr, instagram, minimalist, personal, responsive, clean, simple, twitter, visual, widget, wordpress
     Text Domain: Buzzblog
@@ -188,7 +188,7 @@ opacity:0;
 .slideshow-caption div{ padding:30px 30px 30px 60px; width: 80%; }
 
 h4.pt-standard, h3.pt-standard {
-    
+
     position: relative;
     margin: 1em 0px 0.9em;
     height: 0.5em;
@@ -239,8 +239,8 @@ h4.pt-standard span, h3.pt-standard span {
 	height: 100%;
 	border-radius: 50%;
 	content: '';
-	-webkit-box-sizing: content-box; 
-	-moz-box-sizing: content-box; 
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 	top: 0;
 	left: 0;
@@ -283,8 +283,8 @@ h4.pt-standard span, h3.pt-standard span {
 	height: 100%;
 	border-radius: 50%;
 	content: '';
-	-webkit-box-sizing: content-box; 
-	-moz-box-sizing: content-box; 
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 	top: 0;
 	left: 0;
@@ -406,8 +406,8 @@ padding:32px;
   width: 100%;
   max-height: auto; }
 
-.flexnav > li > a:after {content: '|'; margin-left:12px;} 
-.flexnav > li:last-child a:after {content: ''; margin-left:0px;} 
+.flexnav > li > a:after {content: '|'; margin-left:12px;}
+.flexnav > li:last-child a:after {content: ''; margin-left:0px;}
 
 .flexnav > li.current-menu-item > a, .flexnav > li.current-menu-ancestor  > a {
    border-bottom: 0px;
@@ -448,7 +448,7 @@ letter-spacing: -0.5px;
 display:none;
 }
   .flexnav {
-  text-align: center; 
+  text-align: center;
     overflow: visible; }
     .flexnav.opacity {
       opacity: 1; }
@@ -460,7 +460,7 @@ display:none;
       overflow: visible;
       }
     .flexnav li a {
-      
+
       border-bottom: none; }
     .flexnav li > ul {
 	display: none;
@@ -481,13 +481,13 @@ display:none;
       z-index: 1; }
       .flexnav li ul.open li {
         overflow: visible;
-        max-height: 100px; 
-		 
+        max-height: 100px;
+
 }
       .flexnav li ul.open ul.open {
         margin-left: 100%;
         top: 0; }
-	
+
   .menu-button {
     display: none; }
 }
@@ -514,11 +514,11 @@ height: 100%;
 		background-size: cover;
 		background-attachment: scroll !important;
 	}
-	
+
 	.paraphoto-overlay, .header-overlay {
 		background-color:rgba(255,255,255,1.00);
 	}
-	
+
 	.paraphoto-overlay .heading-entrance h1 {
     font-size: 64px;
 	font-weight:400;
@@ -542,15 +542,15 @@ height: 100%;
         parallax bagkground fix
     ------------------------------------------*/
 
-        @media only screen and (min-width: 1920px) { 
-            .paraphoto { background-size: cover; } 
+        @media only screen and (min-width: 1920px) {
+            .paraphoto { background-size: cover; }
         }
 
-        @media only screen and (max-width: 1024px) { 
-            .paraphoto { 
-                background-size: cover; 
-                background-attachment: scroll; 
-                background-position: top center !important; 
+        @media only screen and (max-width: 1024px) {
+            .paraphoto {
+                background-size: cover;
+                background-attachment: scroll;
+                background-position: top center !important;
             }
         }
 .leftline {border-left:1px solid #e8e8e8; padding-left:20px;}
@@ -559,7 +559,7 @@ height: 100%;
 .flex-direction-nav .flex-next:before {font-family: 'hercules-fonts'; content:"\e9e9";}
 
 .shareon {float:left; padding-right:10px; font-weight: 700; color: #d7d7d7;}
-    
+
 /* Top Panel ---------------------------------------*/
 
 .top-panel-button {
@@ -624,7 +624,7 @@ padding-right:8px;
 }
 .link-image {position: relative; margin-bottom: 1.5em;}
 .link-image a:hover p {
-    
+
 	background: none repeat scroll 0px 0px rgba(0, 231, 180, 1.0);
 }
 
@@ -796,8 +796,8 @@ padding: 20px 30px 20px 30px;
 .post-title a{color:#050505;}
 .post-title span {color:#bbbbbb;}
 
-.menu > li:after {content: '/'; margin-left:0px; } 
-.menu  > li:last-child:after {content: ''; margin-left:0px; } 
+.menu > li:after {content: '/'; margin-left:0px; }
+.menu  > li:last-child:after {content: ''; margin-left:0px; }
 /* #Hover Effect
 ================================================== */
 #ascrail2000 {margin-right:1px; background: #eeeeee;}
@@ -982,8 +982,8 @@ width: 180px;
 	height: 100%;
 	border-radius: 50%;
 	content: '';
-	-webkit-box-sizing: content-box; 
-	-moz-box-sizing: content-box; 
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 }
 /* Effect 1 */
@@ -1115,7 +1115,7 @@ color:#999999;
 	-webkit-transition: all 0.6s;
 	-moz-transition: all 0.6s;
 	transition: all 0.6s;
-	
+
 }
 
 .cbp-af-header-shrink .logo {
@@ -1125,7 +1125,7 @@ margin: 10px auto;
 .cbp-af-header-shrink .logo_tagline {
     font-size: 8.5px;
 	margin:-10px;
-	
+
 	}
 @media all and (min-width: 800px) {
 .cbp-af-header-shrink .flexnav > li > a {
@@ -1135,7 +1135,7 @@ margin: 10px auto;
 .header .container {
 
   border-bottom: 0px solid #eeeeee;
-  
+
 }
 .header_fixed_full {
   position: fixed;
@@ -1181,7 +1181,7 @@ left: 30px;
 .logo_link:hover {
   text-decoration: none;
   color: #3d3d3d;
-  
+
 }
 .logo_tagline {
   text-transform: uppercase;
@@ -1206,7 +1206,7 @@ color:#ddd;
 cursor: hand; cursor: pointer;
 }
 .social_link:hover {
-  
+
   cursor: hand; cursor: pointer;
 }
 .social_ico {
@@ -1310,7 +1310,7 @@ position: relative;
 
 /* Post intro
 ================================================== */
-.intro { 
+.intro {
 border-bottom: 1px solid #EEEEEE;
 border-top: 1px solid #EEEEEE;
 color: #979797;
@@ -1352,7 +1352,7 @@ padding: 10px 0px;
   margin-top: 50px;
   padding-bottom: 0.5em;
   text-align:center;
-  
+
 }
 .title-desc {
   display: block;
@@ -1370,7 +1370,7 @@ padding: 10px 0px;
 ================================================== */
 #sidebar {
   padding-top: 0px;
-  
+
 }
 /* #Pages
 ================================================== */
@@ -1387,13 +1387,13 @@ padding: 10px 0px;
   padding: 0px 0 0 0;
   border: none;
   background:none;
-  
+
 }
 .testimonial_bq .user {font-weight:bold;}
 .testimonial_content {
   overflow: hidden;
-  
-  
+
+
 }
 .testimonial .featured-thumbnail {
   /* Portrait tablet to landscape and desktop */
@@ -1497,7 +1497,7 @@ margin: 0!important;
 			position: relative;
 z-index: 0;
 		}
-		
+
 		.portfolio_item_holder .caption  h4{
 text-transform: uppercase;
 border-bottom: 1px solid #eaeaea;
@@ -1511,13 +1511,13 @@ padding-bottom: 10px;
 		}
 
 		.portfolio_item_holder .heading span {
-			color:#26c3e5;	
+			color:#26c3e5;
 			font-weight:bold;
 			display:block;
 			padding:5px 0 0 10px;
 		}
-		
-	
+
+
 
 /* Zoom Icon */
 .zoom-mail {
@@ -1543,7 +1543,7 @@ cursor:pointer;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ea
   height: 59px;
   background: url(images/magnify-alt.png) 50% 50% no-repeat;
   content: "";
-  
+
 }
 .caption h3 {
 text-transform:uppercase;
@@ -1551,7 +1551,7 @@ text-transform:uppercase;
 .line-thru {
   display: block;
   width: 50%;
-  background: url(images/line.png) 0% 50% repeat-x; 
+  background: url(images/line.png) 0% 50% repeat-x;
   margin: 0 auto;
 }
 .line-thru span{
@@ -1578,7 +1578,7 @@ background:#fff;
   height: 59px;
   background: url(images/video-alt.png) 50% 50% no-repeat;
   content: "";
-  
+
 }
 .zoom-icon{
   font-family: hercules-fonts;
@@ -1600,7 +1600,7 @@ background:#fff;
   font-size:3.5em;
   content: "\e96f";
 }
-a:hover .zoom-icon:before {margin: -10px 0 0 -25px;} 
+a:hover .zoom-icon:before {margin: -10px 0 0 -25px;}
 
 .zoom-icon-video:before {
   position: absolute;
@@ -1638,7 +1638,7 @@ a:hover .zoom-insta {top:0%; opacity: 1;}
   cursor: pointer;
   -moz-opacity: 0.4;
   bottom:0;
-  
+
 }
 .no-rgba .image-wrap:hover .zoom-icon,
 .featured-thumbnail a:hover .zoom-icon,
@@ -1662,7 +1662,7 @@ a:hover .zoom-insta {top:0%; opacity: 1;}
   list-style: none;
 }
 /* FlexSlider Necessary Styles */.flexslider {
-  
+
   background: url(images/loading.gif) 50% 50% no-repeat;
 }
 .flexslider.no-bg {
@@ -1845,7 +1845,7 @@ margin-bottom:20px;
   overflow: hidden;
 }
 .nav-pills {
-  margin-bottom:0px; 
+  margin-bottom:0px;
 }
 .nav-pills span{
    margin:2px;
@@ -1898,14 +1898,14 @@ clear:both;
   box-sizing: border-box;
   margin: 0px 0px 12px 0px;
   padding: 0px;
- 
-  
+
+
 }
 .filterable-portfolio .portfolio_item.nomargin {
   margin-right: 0;
 }
 .filterable-portfolio .portfolio_item_holder {
-  overflow: hidden; 
+  overflow: hidden;
   display: block;
    -webkit-box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.05);
@@ -1915,7 +1915,7 @@ clear:both;
   position: relative;
   display: block;
   overflow: hidden;
-  
+
 }
 
 .thumbnail__portfolio {
@@ -1971,7 +1971,7 @@ clear:both;
 ---------------------------------------- */
 .post-author {
   margin-bottom: 2em;
-  
+
 }
 .post-author_link {
   margin-top: 1.5em;
@@ -1981,7 +1981,7 @@ clear:both;
   margin: 0 20px 0 0;
 }
 .post-author_gravatar img {
- 
+
   background: #fff;
    -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
@@ -2150,7 +2150,7 @@ padding-right: 0px;
   padding-right: 0px;
 }
 .post_meta .post_permalink {
- 
+
   padding-right: 0;
 }
 .post_meta i {
@@ -2240,7 +2240,7 @@ padding: 25px 0px 0 0;
 }
 .share-buttons .twitter {
     position: relative;
-    
+
     padding-left: 0px;
 	}
 .share-buttons span {
@@ -2423,7 +2423,7 @@ padding: 25px 0px 0 0;
   border: none;
 }
 .post-list .excerpt {
-  
+
 }
 /*/ Posts List */
 /* Twitter widget */
@@ -2572,7 +2572,7 @@ border: 1px solid #222;
 }
 /* Posts Grid
 -----------------------------------------*/
-.teampos {font-size:70%; color:#929292;} 
+.teampos {font-size:70%; color:#929292;}
 .posts-grid {
   margin: 0;
 }
@@ -2944,11 +2944,11 @@ color:#7b7b7b;
 }
 .testi-meta .info{
  display:block;
- 
+
 }
 /*/ Testimonials */
 
-/* Roundabout 
+/* Roundabout
 ---------------------------------------- */
 .roundabout-holder {
   width: 100%;
@@ -3094,13 +3094,13 @@ nav.footer-nav ul li.current-menu-item a {
 }
 /* Copyright */
 .copyright {
-  padding: 0; 
+  padding: 0;
   margin-top: 0px;
 }
 .copyright-handle {
  padding: 10px 0 10px 0;
  color:#7a7a79;
-  
+
 }
 /* Footer text */
 .footer-text {
@@ -3205,7 +3205,7 @@ article .post-content img {
   position: relative;
   float: left;
   overflow: hidden;
-  
+
 }
 .featured-thumbnail a {
   position: relative;
@@ -3407,7 +3407,7 @@ margin-right: 20px;
 		background: #28a0ff;
 		color: #fff;
 	}
-	
+
  .dropcap.wh:first-letter {
 		background: #fff;
 		color: #000;
@@ -3561,7 +3561,7 @@ input[type="submit"] {
 span.wpcf7-form-control-wrap {
   display: block;
 }
-.wpcf7-form br { display: none; } 
+.wpcf7-form br { display: none; }
 .wpcf7-not-valid-tip {
   position: relative;
   top: 0 !important;
@@ -3700,7 +3700,7 @@ div.jp-interface {
   -o-transition: opacity 0.5s ease-in-out, margin 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out, margin 0.5s ease-in-out;
   background-color: #282c2f;
-  
+
 }
 div.jp-interface li {
   padding-left: 0;
@@ -3805,14 +3805,14 @@ div.jp-progress {
 div.jp-seek-bar {
   width: 0;
   height: 100%;
-  
+
   cursor: pointer;
 }
 div.jp-play-bar {
   width: 0;
   height: 100%;
   background-color: #00e7b4;
- 
+
 }
 div.jp-seeking-bg {
   background: url(images/jp_load.gif) 0 1px repeat-x;
@@ -3857,7 +3857,7 @@ div.jp-volume-bar-value {
   width: 0;
   height: 7px;
   background-color: #00e7b4;
- 
+
 }
 div.jp-current-time,
 div.jp-time-sep,
@@ -3891,7 +3891,7 @@ div.jp-audio div.jp-duration {
 @media (max-width: 480px) {
   {
     /* Landscape phones and down */
-  
+
   }
 }
 @media (max-width: 480px) and (max-width: 480px) {
@@ -3910,7 +3910,7 @@ font-size: 0.7em;
 }
 div.jp-title,
 div.jp-playlist {
-  
+
 }
 div.jp-type-single div.jp-title,
 div.jp-type-playlist div.jp-title,
@@ -4291,14 +4291,14 @@ text-align:center;
 -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; 
+  background-size: cover;
 }
 .clients h1{
 }
 .clients h5{
 }
 .clients .hr {background:#5fb8ff;}
-.ourskills { 
+.ourskills {
 background:url(images/ourskills.jpg) 50% 0 no-repeat fixed ;
 	height: auto;
 	margin: 0 auto;
@@ -4306,9 +4306,9 @@ background:url(images/ourskills.jpg) 50% 0 no-repeat fixed ;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; 
+  background-size: cover;
  }
-.gray { 
+.gray {
 background: #f8f8f8 ;
 	height: auto;
 	margin: 0 auto;
@@ -4316,9 +4316,9 @@ background: #f8f8f8 ;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; 
+  background-size: cover;
  }
- .black1 { 
+ .black1 {
 background: #f8f8f8 ;
 	height: auto;
 	margin: 0 auto;
@@ -4326,9 +4326,9 @@ background: #f8f8f8 ;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; 
+  background-size: cover;
  }
- .black2 { 
+ .black2 {
 border-top: 1px solid #e3e3e3;
 
 	height: auto;
@@ -4441,7 +4441,7 @@ line-height: 68px!important;
 }
 
 .sb-icon-search {
-	
+
 	color: #dbdbdb;
 	z-index: 90;
 	font-size: 1.2em;
@@ -4504,7 +4504,7 @@ z-index: 3;
 
 /* /Posts navigation *//* #Comments
 ================================================== */
-.commentlist .children li { 
+.commentlist .children li {
 margin: 0px 0px 0px 50px;
 }
 
@@ -4692,7 +4692,7 @@ display: block;
 ===================================*/
 
 .bx-wrapper .bx-viewport {
-	
+
 	background: #fff;
 }
 
@@ -4908,3 +4908,45 @@ footer blockquote {border:0;}
 .social-icon.twitter { background-position-x: 86px; background-position-y: 44px; }
 .social-icon.instagram { background-position-x: 0px; }
 .social-icon.pinterest { background-position-x: -39px; background-position-y: 44px; }
+
+header .logo {
+  background-image: url("images/hpw-desktop@2x.png");
+  background-size: 700px 300px;
+  display: block;
+  width: 700px;
+  height: 300px;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 999;
+  margin: 10px auto;
+}
+
+header h1 {
+  text-indent: -9999px;
+}
+
+header p.logo_tagline {
+  text-indent: -9999px;
+}
+
+header nav.nav {
+  margin-top: -30px;
+}
+
+header nav.nav__primary {
+  background-color: transparent;
+}
+
+@media (max-width: 800px) {
+  header .logo {
+    background-image: url("images/hpw-mobile@2x.png");
+    background-size: 460px 300px;
+    display: block;
+    width: 460px;
+    height: 300px;
+  }
+
+  header nav.nav {
+    margin-top: 20px;
+  }
+}
