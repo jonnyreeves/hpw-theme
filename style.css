@@ -4937,6 +4937,14 @@ header nav.nav__primary {
   background-color: transparent;
 }
 
+footer .footer-text {
+  margin-right: 50px;
+}
+
+footer .lowestfooter {
+  background-color: white;
+}
+
 @media (max-width: 800px) {
   header .logo {
     background-image: url("images/hpw-mobile@2x.png");
@@ -4949,5 +4957,9 @@ header nav.nav__primary {
 
   header nav.nav {
     margin-top: 0px;
+  }
+
+  footer .footer-text {
+    margin-right: 0px;
   }
 }
