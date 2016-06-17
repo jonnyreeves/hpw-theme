@@ -4910,6 +4910,13 @@ footer blockquote {border:0;}
 .social-icon.pinterest { background-position-x: -39px; background-position-y: 44px; }
 .social-icon.facebook { background-position-x: -39px; }
 
+@media (max-width: 1024px) {
+  #sidebar .social-icons {
+    max-width: 130px;
+    margin: auto;
+  }
+}
+
 header .logo {
   background-image: url("images/hpw-desktop@2x.png");
   background-size: 700px 300px;
