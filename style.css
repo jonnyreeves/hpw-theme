@@ -4908,6 +4908,7 @@ footer blockquote {border:0;}
 .social-icon.twitter { background-position-x: 86px; background-position-y: 44px; }
 .social-icon.instagram { background-position-x: 0px; }
 .social-icon.pinterest { background-position-x: -39px; background-position-y: 44px; }
+.social-icon.facebook { background-position-x: -39px; }
 
 header .logo {
   background-image: url("images/hpw-desktop@2x.png");
