@@ -35,7 +35,7 @@ if ($facebook_share=='true') { ?>
 <?php } ?>
 <?php
 if ($twitter_share=='true') { ?>
-<a class="hs-icon icon-twitter" onClick="window.open('http://twitter.com/share?url=<?php echo $permalink; ?>&amp;text=<?php echo str_replace($search, $replace, $titleget); ?>','Twitter share','width=600,height=300,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-150)+''); return false;" href="http://twitter.com/share?url=<?php echo $permalink; ?>&amp;text=<?php echo str_replace(" ", "%20", $titleget); ?>"></a>
+<a class="hs-icon icon-twitter" onClick="window.open('http://twitter.com/share?url=<?php echo $permalink; ?>&amp;text=<?php echo str_replace($search, $replace, $titleget); ?>&amp;via=hotpinkwellies','Twitter share','width=600,height=300,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-150)+''); return false;" href="http://twitter.com/share?url=<?php echo $permalink; ?>&amp;text=<?php echo str_replace(" ", "%20", $titleget); ?>&amp;via=hotpinkwellies"></a>
 <?php } ?>
 <?php
 if ($gplus_share=='true') { ?>
