@@ -4902,7 +4902,7 @@ footer blockquote {border:0;}
 
 
 /* Hax */
-.social-icon { background-image:url("http://www.hotpinkwellingtons.co.uk/wp-content/themes/BUZZBLOG-theme/images/chalkboardsocialmediabuttons.jpg"); width: 40px; height: 40px; display: inline-block; text-indent: -99999px }
+.social-icon { background-image:url("images/chalkboardsocialmediabuttons.jpg"); width: 40px; height: 40px; display: inline-block; text-indent: -99999px }
 
 .social-icon.bloglovin { background-position-y: 44px }
 .social-icon.twitter { background-position-x: 86px; background-position-y: 44px; }
