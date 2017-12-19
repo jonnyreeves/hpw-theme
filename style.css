@@ -4972,3 +4972,23 @@ footer .lowestfooter {
     margin-right: 0px;
   }
 }
+
+/* Work with me */
+.brand-logos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;    
+  justify-content: center;
+  align-items: center; 
+}
+.brand-logo {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  line-height: 100px;
+  text-align: center;
+}
+.brand-logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
