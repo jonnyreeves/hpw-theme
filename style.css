@@ -4902,6 +4902,10 @@ footer blockquote {border:0;}
 
 
 /* Hax */
+#content a {
+  color: #6cb5d0;
+}
+
 .social-icon { background-image:url("images/chalkboardsocialmediabuttons.jpg"); width: 40px; height: 40px; display: inline-block; text-indent: -99999px }
 
 .social-icon.bloglovin { background-position-y: 44px }
