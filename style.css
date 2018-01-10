@@ -4902,7 +4902,7 @@ footer blockquote {border:0;}
 
 
 /* Hax */
-#content a {
+#content .post_content a {
   color: #6cb5d0;
 }
 
