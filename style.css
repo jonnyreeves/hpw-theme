@@ -5006,4 +5006,5 @@ article .newsletter-signup {
 
 article .newsletter-signup input[type="email"] {
   margin-bottom: 0px;
+  height: 42px;
 }
