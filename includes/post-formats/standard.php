@@ -68,4 +68,5 @@ if ($readmore_button=='yes') { ?>
 	
 </div></div>
 <?php get_template_part( 'includes/post-formats/share-buttons' ); ?>
+<?php get_template_part( 'includes/post-formats/newsletter-signup' ); ?>
 </article>
