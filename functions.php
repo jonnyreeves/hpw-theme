@@ -149,7 +149,7 @@ function hs_remove_cat_rel( $hs_list )
 	if(!function_exists('hs_no_more_jumping')) {
 		
 		function hs_no_more_jumping($post) {
-			return '&nbsp;<a href="'.get_permalink().'" class="read-more">'.'Continue Reading'.'</a>';
+			return '&nbsp;<a href="'.get_permalink().'" class="read-more">'.'Continue reading &raquo;'.'</a>';
 		}
 		add_filter('excerpt_more', 'hs_no_more_jumping');
 		
