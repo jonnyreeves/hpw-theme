@@ -569,4 +569,13 @@ function my_option_posts_per_page( $value ) {
 }
 
 
+// Exclude Sharing The Blog Love from RSS Feed
+function exclude_categories_from_rss( $query ) {
+	if ($query->is_feed) {
+		$query->set( 'cat','-233' );
+	}
+	return $query;
+}
+add_filter( 'pre_get_posts', 'exclude_categories_from_rss' );
+
 ?>
