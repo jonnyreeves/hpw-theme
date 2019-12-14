@@ -5006,3 +5006,8 @@ article .newsletter-signup input[type="email"] {
   margin-bottom: 0px;
   height: 42px;
 }
+
+article .wp-block-image {
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
